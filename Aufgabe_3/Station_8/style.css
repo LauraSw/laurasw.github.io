@@ -1,0 +1,28 @@
+body {
+    background-image: url(./images/bg.png);}
+.outerwrapper {
+        position: absolute;
+        max-width: 600px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .innerwrapper{
+        position: relative;
+    }
+.banderole {
+    position: absolute;
+    z-index: 2;
+    bottom: 4px;
+    right: 0px;
+}
+
+#video {
+    position: absolute;
+    width: 90%;
+z-index: 1;
+left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+}

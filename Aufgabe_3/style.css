@@ -1,0 +1,39 @@
+body {
+    background-image: url(./Station_1/images/bg.png);
+}
+div {
+    position: absolute;
+    max-width: 700px;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+.img {
+    position: absolute;
+    left: 30px;
+    top: 100px;
+}
+.a {
+    margin-right: 15px;
+    border-radius: 3px;
+    color: honeydew;
+    background-color: rgb(185, 47, 47);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration: none;
+}
+.a:hover {
+    background-color: rgb(207, 106, 106);
+}
+.img2 {
+    position: absolute;
+    left: 200px;
+    top: 180px;
+}
+#h1 {
+    color: rgb(185, 47, 47);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    position: absolute;
+    top: -170px;
+}

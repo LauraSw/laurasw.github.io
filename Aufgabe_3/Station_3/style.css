@@ -1,0 +1,45 @@
+body {
+    background-image: url(./images/bg.png);}
+div {
+        position: absolute;
+        max-width: 600px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+#s1 {
+        top: 260px;
+        left: 85px;
+        }
+
+.stern{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+   background-image: url(./images/stern.png);
+}        
+
+.stern:hover{
+    background-image: url(./images/stern_hover.png);
+}
+#s2 {
+        top: 185px;
+        left: 170px;
+        }
+#s3 {
+        top: 295px;
+        left: 280px;
+        }
+#s4 {
+        top: 210px;
+        left: 435px;
+        }
+h1 {
+        position: absolute;
+        top: 35px;
+        left: 50px;
+        right: 170px;
+        color: honeydew;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 35px;
+            }
