@@ -1,0 +1,147 @@
+.outerContainer {
+    position: absolute;
+    max-width: 700px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.innerContainer{
+    position: relative;
+}
+
+.innerContainer > img{
+    width: auto;
+    height: 100%;
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+}
+
+.antwort, .frage{
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% 100%;
+}
+
+.icons{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.antwort{
+    background-image: url("./images/answer.png");
+}
+
+.antwort:hover {
+    background-image: url(./images/answer_over.png);
+}
+
+.frage{
+    background-image: url("./images/question.png");
+}
+
+.fragenAnworten{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.antwort > p, .frage > p{
+    color: white;
+    margin: 0px;
+    position: relative;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    transition: color .2s ease-in-out;
+}
+
+.antwort:hover > p{
+    color: orangered;
+    transition: color .2s ease-in-out;
+}
+
+.antwort > p, .frage > p{
+    padding: 20px 0;
+}
+
+.frage > p{
+    padding: 40px 0;
+}
+
+.aNummer{
+    color: #ff882d;
+    font-weight: 600;
+}
+
+
+
+body{
+    position: relative;
+    height: 100%;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+    margin: 0;
+}
+
+h1 {color:  #ff882d;
+    font-size: 60px;
+}
+
+.textBox{
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    width: 100%;
+}
+.info {
+    font-size: 20px;
+    color: dimgrey;
+}
+
+
+@media (max-width: 960px) {
+
+    .icons{
+        position: absolute;
+        top: 20px;
+        left: 40px;
+    }
+
+    .textBox{
+        top: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+    .info {
+        font-size: 16px;
+    }
+    .antwort{
+        background-size: 100% 100%;
+    }
+
+    .frage{
+        background-size: 100% 100%;
+    }
+
+    .outerContainer{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 40px;
+    }
+    .info {
+        font-size: 20px;
+    }
+}
