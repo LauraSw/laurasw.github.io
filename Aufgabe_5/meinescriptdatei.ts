@@ -10,7 +10,7 @@ var europaemission2008:number = 4965.7;
 var nordamerikaemission2008:number = 6600.4;
 var asienemission2008:number = 12954.7;
 
-var gesamtemission2018: number = afrikaemission2018+europaemission2018+südamerikaemission2018+nordamerikaemission2018+asienemission2018;
+var gesamtemission2018:number = afrikaemission2018+europaemission2018+südamerikaemission2018+nordamerikaemission2018+asienemission2018;
 
 
 console.log("Die Emission von Afrika ist: "+afrikaemission2018+"kg CO2.");

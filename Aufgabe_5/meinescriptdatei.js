@@ -1,8 +1,3 @@
-var afrika = "AFRIKA";
-var südamerika = "SÜDAMERIKA";
-var europa = "EUROPA";
-var nordamerika = "NORDAMERIKA";
-var asien = "ASIEN";
 var afrikaemission2018 = 1235.5;
 var südamerikaemission2018 = 1261.5;
 var europaemission2018 = 4209.3;
@@ -14,7 +9,6 @@ var europaemission2008 = 4965.7;
 var nordamerikaemission2008 = 6600.4;
 var asienemission2008 = 12954.7;
 var gesamtemission2018 = afrikaemission2018 + europaemission2018 + südamerikaemission2018 + nordamerikaemission2018 + asienemission2018;
-console.log(afrika);
 console.log("Die Emission von Afrika ist: " + afrikaemission2018 + "kg CO2.");
 var anteilafrika2018 = (afrikaemission2018 / gesamtemission2018) * 100;
 console.log("Relativ zur Gesamtemission der Welt verursacht Afrika damit " + anteilafrika2018 + "%.");
@@ -22,7 +16,6 @@ var wachstumafrikavon2008zu2018absolut = afrikaemission2018 - afrikaemission2008
 var wachstumafrikavon2008zu2018prozentual = -((wachstumafrikavon2008zu2018absolut / afrikaemission2008) * 100);
 console.log("Für Afrika hat sich 2018 im Vergleich zu 2008 die Emission um " + wachstumafrikavon2008zu2018prozentual + "% verändert.");
 console.log("2018 im Vergleich zu 2008 sind das " + wachstumafrikavon2008zu2018absolut + "kg CO2.");
-console.log(südamerika);
 console.log("Die Emission von Südamerika ist: " + südamerikaemission2018 + "kg CO2.");
 var anteilsüdamerika2018 = (südamerikaemission2018 / gesamtemission2018) * 100;
 console.log("Relativ zur Gesamtemission der Welt verursacht Südamerika damit " + anteilsüdamerika2018 + "%.");
@@ -30,7 +23,6 @@ var wachstumsüdamerikavon2008zu2018absolut = südamerikaemission2018 - südamer
 var wachstumsüdamerikavon2008zu2018prozentual = -((wachstumsüdamerikavon2008zu2018absolut / südamerikaemission2008) * 100);
 console.log("Für Südamerika hat sich 2018 im Vergleich zu 2008 die Emission um " + wachstumsüdamerikavon2008zu2018prozentual + "% verändert.");
 console.log("2018 im Vergleich zu 2008 sind das " + wachstumsüdamerikavon2008zu2018absolut + "kg CO2.");
-console.log(europa);
 console.log("Die Emission von Europa ist: " + europaemission2018 + "kg CO2.");
 var anteileuropa2018 = (europaemission2018 / gesamtemission2018) * 100;
 console.log("Relativ zur Gesamtemission der Welt verursacht Europa damit " + anteileuropa2018 + "%.");
@@ -38,7 +30,6 @@ var wachstumeuropavon2008zu2018absolut = europaemission2018 - europaemission2008
 var wachstumeuropavon2008zu2018prozentual = -((wachstumeuropavon2008zu2018absolut / europaemission2008) * 100);
 console.log("Für Europa hat sich 2018 im Vergleich zu 2008 die Emission um " + wachstumeuropavon2008zu2018prozentual + "% verändert.");
 console.log("2018 im Vergleich zu 2008 sind das " + wachstumeuropavon2008zu2018absolut + "kg CO2.");
-console.log(nordamerika);
 console.log("Die Emission von Nordamerika ist: " + nordamerikaemission2018 + "kg CO2.");
 var anteilnordamerika2018 = (nordamerikaemission2018 / gesamtemission2018) * 100;
 console.log("Relativ zur Gesamtemission der Welt verursacht Nordamerika damit " + anteilnordamerika2018 + "%.");
@@ -46,7 +37,6 @@ var wachstumnordamerikavon2008zu2018absolut = nordamerikaemission2018 - nordamer
 var wachstumnordamerikavon2008zu2018prozentual = -((wachstumnordamerikavon2008zu2018absolut / nordamerikaemission2008) * 100);
 console.log("Für Nordamerika hat sich 2018 im Vergleich zu 2008 die Emission um " + wachstumnordamerikavon2008zu2018prozentual + "% verändert.");
 console.log("2018 im Vergleich zu 2008 sind das " + wachstumnordamerikavon2008zu2018absolut + "kg CO2.");
-console.log(asien);
 console.log("Die Emission von Asien ist: " + asienemission2018 + "kg CO2.");
 var anteilasien2018 = (asienemission2018 / gesamtemission2018) * 100;
 console.log("Relativ zur Gesamtemission der Welt verursacht Asien damit " + anteilasien2018 + "%.");
