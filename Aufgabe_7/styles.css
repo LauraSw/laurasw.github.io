@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+.buttons {
+    border-style: none;
+    border-radius: 5px;
+    margin: 3px 3px 3px 3px;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.buttons:hover {
+    transform: scale(0.95);
+}
+#button1 {
+    background: linear-gradient(#6f9bd6 5%, #0050bc 95%);
+    float: left;
+    border-top: 1px solid #ffffff9c;
+    border-bottom: 1px solid #ffffff1c;
+}
+
+#button2 {
+    background: linear-gradient(#6f9bd6 5%, #0050bc 95%);
+    float: left;
+    border-top: 1px solid #ffffff9c;
+    border-bottom: 1px solid #ffffff1c;
+}
+#button3 {
+    background: linear-gradient(#6f9bd6 5%, #0050bc 95%);
+    float: left;
+    border-top: 1px solid #ffffff9c;
+    border-bottom: 1px solid #ffffff1c;
+}
+#button4 {
+    background: linear-gradient(#ff5fb8 5%, #ff1899 95%);
+    float: left;
+    border-top: 1px solid #ffffff9c;
+    border-bottom: 1px solid #ffffff1c;
+}
+#button5 {
+    background: linear-gradient(#ff5fb8 5%, #ff1899 95%);
+    float: left;
+    border-top: 1px solid #ffffff9c;
+    border-bottom: 1px solid #ffffff1c;
+}
+#button6 {
+    background: linear-gradient(#ff5fb8 5%, #ff1899 95%);
+    float: left;
+    border-top: 1px solid #ffffff9c;
+    border-bottom: 1px solid #ffffff1c;
+}
+#button7 {
+    background: linear-gradient(#ff5fb8 5%, #ff1899 95%);
+    float: left;
+    border-top: 1px solid #ffffff9c;
+    border-bottom: 1px solid #ffffff1c;
+}
+#button8 {
+    background: linear-gradient(#ffb559 5%, #ff9716 95%);
+    float: left;
+    border-top: 1px solid #ffffff9c;
+    border-bottom: 1px solid #ffffff1c;
+}
+#button9 {
+    background: linear-gradient(#ffb559 5%, #ff9716 95%);
+    float: left;
+    border-top: 1px solid #ffffff9c;
+    border-bottom: 1px solid #ffffff1c;
+}
+.zeile {
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    display: table;
+}
+.outerbox {
+    margin: auto;
+}
+#playButton{
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    display: table;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+#playButton:hover {
+    transform: scale(0.95);
+}
+#playButton:active {
+    transform: scale(0.95);
+}

@@ -17,10 +17,10 @@ Folgende Anforderungen an die Aufgabe:
 
 4. Bitte erstellen Sie eine Ausgabe für alle Regionen (im Kurs für Gruppe A hatten wir nur Europa gesagt, das ist aber etwas zu wenig). Also für Europa, Asia usw. soll nacheinander in der Konsole der Text ausgegeben werden
 
-## Abgabe 4 bis Mittwoch, 20.11.2019 18:00 Uhr
+## Abgabe 5 bis Mittwoch, 20.11.2019 18:00 Uhr
 
 ************
-## Aufgabe 5+ (keine Pflicht)
+## Aufgabe 5-Follow-Up (nicht Teil der Abgabe, nur wer Ambitionen hat)
 Am Beispiel einer interaktiven Infografik werden Sie mit den Grundlagen der Programmierung, mit Variablen und Operatoren arbeiten.
 
 Folgende Anforderungen an die Aufgabe:
