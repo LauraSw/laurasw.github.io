@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+.buttons {
+    border-style: none;
+    border-radius: 5px;
+    margin: 3px 3px 3px 3px;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.buttons:hover {
+    transform: scale(0.95);
+}
+#button1 {
+    background: linear-gradient(#6f9bd6 5%, #0050bc 95%);
+    float: left;
+    border-top: 1px solid #ffffff9c;
+    border-bottom: 1px solid #ffffff1c;
+}
+
+#button2 {
+    background: linear-gradient(#6f9bd6 5%, #0050bc 95%);
+    float: left;
+    border-top: 1px solid #ffffff9c;
+    border-bottom: 1px solid #ffffff1c;
+}
+#button3 {
+    background: linear-gradient(#6f9bd6 5%, #0050bc 95%);
+    float: left;
+    border-top: 1px solid #ffffff9c;
+    border-bottom: 1px solid #ffffff1c;
+}
+#button4 {
+    background: linear-gradient(#ff5fb8 5%, #ff1899 95%);
+    float: left;
+    border-top: 1px solid #ffffff9c;
+    border-bottom: 1px solid #ffffff1c;
+}
+#button5 {
+    background: linear-gradient(#ff5fb8 5%, #ff1899 95%);
+    float: left;
+    border-top: 1px solid #ffffff9c;
+    border-bottom: 1px solid #ffffff1c;
+}
+#button6 {
+    background: linear-gradient(#ff5fb8 5%, #ff1899 95%);
+    float: left;
+    border-top: 1px solid #ffffff9c;
+    border-bottom: 1px solid #ffffff1c;
+}
+#button7 {
+    background: linear-gradient(#ff5fb8 5%, #ff1899 95%);
+    float: left;
+    border-top: 1px solid #ffffff9c;
+    border-bottom: 1px solid #ffffff1c;
+}
+#button8 {
+    background: linear-gradient(#ffb559 5%, #ff9716 95%);
+    float: left;
+    border-top: 1px solid #ffffff9c;
+    border-bottom: 1px solid #ffffff1c;
+}
+#button9 {
+    background: linear-gradient(#ffb559 5%, #ff9716 95%);
+    float: left;
+    border-top: 1px solid #ffffff9c;
+    border-bottom: 1px solid #ffffff1c;
+}
+.zeile {
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    display: table;
+}
+.outerbox {
+    margin: auto;
+}
+#playButton{
+    float: left;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+#playButton:hover {
+    transform: scale(0.95);
+}
+#playButton:active {
+    transform: scale(0.95);
+}
+#recordButton{
+    float: left;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+#recordButton:hover {
+    transform: scale(0.95);
+}
+#recordButton:active {
+    transform: scale(0.95);
+}
+#deleteButton{
+    float: left;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+#deleteButton:hover {
+    transform: scale(0.95);
+}
+#deleteButton:active {
+    transform: scale(0.95);
+}
+#iconContainer {
+    margin-top: 16px;
+}
+.fas {
+    color: white;
+    font-size: 90px;
+    margin-right: 25px;
+}
+
+.fas:last-of-type {
+    margin-right: 0px;
+}
+.toggleIcon::before {
+    content: "\f04d" !important;
+}
