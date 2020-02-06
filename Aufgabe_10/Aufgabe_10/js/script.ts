@@ -19,6 +19,9 @@ interface tasks {
 }
 
 
+
+
+
 /**
  * Die Anwendung wird immer wieder auf die selben
  * DOM-Elemente zugreifen müssen. Damit diese Elemente nicht 
